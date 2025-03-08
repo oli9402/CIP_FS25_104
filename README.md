@@ -3,7 +3,7 @@
 ## Virtual Environment 
 Create virtual environment by open a terminal in project folder and run: 
 
-`python -m venv venv`
+`python3 -m venv venv`
 
 ### Active Venv with the following command: 
 
@@ -33,3 +33,7 @@ Add it to gitignore file so it doesn't get uploaded
 git add .gitignore
 git commit -m "Ignore virtual environment"
 `
+### Add .idea (folder setting) to gitignore
+`echo ".idea/" >> .gitignore
+git add .gitignore
+git commit -m "Ignore PyCharm settings folder"`
