@@ -1,7 +1,7 @@
 # CIP_FS25_104
 
 ## Virtual Environment 
-Create virtual environment by open a terminal in project folder and run: 
+Create virtual environment by opening a terminal in project folder and run: 
 
 `python3 -m venv venv`
 
@@ -29,11 +29,25 @@ After you install a new packages you can create an updated requirements.txt file
 ### Do not Commit Venv to Github
 Add it to gitignore file so it doesn't get uploaded
 
-`echo "venv/" >> .gitignore
-git add .gitignore
-git commit -m "Ignore virtual environment"
-`
+`echo "venv/" >> .gitignore`
+`git add .gitignore`
+`git commit -m "Ignore virtual environment"`
+
 ### Add .idea (folder setting) to gitignore
-`echo ".idea/" >> .gitignore
-git add .gitignore
-git commit -m "Ignore PyCharm settings folder"`
+`echo ".idea/" >> .gitignore`
+`git add .gitignore`
+`git commit -m "Ignore PyCharm settings folder"`
+
+
+# Directory Structure
+
+- .gitignore
+- requirements.txt
+- Web scraping
+  - Mobile_de
+    - your_scraping_file.py
+  - Auto_de
+    - your_scraping_file.py
+  - Autoscout24_com
+    - your_scraping_file.py
+- Data_folder
